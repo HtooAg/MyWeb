@@ -11,3 +11,13 @@ header {
 	padding: 20px;
 	background-color: cyan;
 }
+button {
+	transition: all 0.5s;
+	border-radius: 20px;
+	padding: 0.5rem;
+}
+button:hover {
+	cursor: pointer;
+	background-color: cyan;
+	transform: scale(1.2);
+}
